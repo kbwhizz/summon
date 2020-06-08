@@ -17,9 +17,9 @@
   var loginFlow = false;
   var library_name = {
     'RCA': 'Kensington',
-    'CGC': 'Chandler-Gilbert CC Library',
-    'CGCAV': 'Chandler-Gilbert CC Media',
-    'CGCCTL': 'Chandler-Gilbert CC Ctr Teaching Learning',
+    'IS': 'On Shelf',
+    'AB': 'Artists Books',
+    'CRL': 'Colour Reference Library',
     'CGCWIL': 'Chandler-Gilbert CC Williams',
     'DOONL': 'Online Resources',
     'DOTR': 'DO Training',
