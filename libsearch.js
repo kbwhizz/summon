@@ -11,7 +11,7 @@
       
         link.type = 'text/css'; 
       
-        link.href = '//cloud.webtype.com/css/2dc77ba2-6663-49b6-9e6c-aa009c06648b.css';  
+        link.href = 'libsearch.css';  
   
         // Append link element to HTML head 
         head.appendChild(link);  
