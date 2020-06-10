@@ -1,6 +1,6 @@
 body {
 	font-family:"Benton Sans Light", "BentonSans-Light", "Benton Sans Medium", "Helvetica Neue", Arial, Helvetica, Sans-Serif;
 	}
-.btn-link:hover {
+.btn-link:hover .availabilityLink:hover {
 	color:#ff5d1c !important;
 	}
