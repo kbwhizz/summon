@@ -12,4 +12,4 @@
         link.href = 'https://iainrca.github.io/summon/libsearch.css';  
   
         // Append link element to HTML head 
-        head.appendChild(link);  
+        document.head.appendChild(link);  
