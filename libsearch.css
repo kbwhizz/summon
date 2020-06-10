@@ -7,3 +7,6 @@ body {
 .availabilityLink:hover {
 	color:#ff5d1c !important;
 	}
+.btn-default {
+	background-color:#000;
+}
