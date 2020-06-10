@@ -1,5 +1,5 @@
          // Get HTML head element 
-        var head = document.getElementsByTagName('HEAD')[0];  
+        var head = document.getElementsByTagName('head')[0];  
   
         // Create new link Element 
         var link = document.createElement('link'); 
