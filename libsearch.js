@@ -1,6 +1,4 @@
-    <script> 
-          
-        // Get HTML head element 
+         // Get HTML head element 
         var head = document.getElementsByTagName('HEAD')[0];  
   
         // Create new link Element 
@@ -15,4 +13,3 @@
   
         // Append link element to HTML head 
         head.appendChild(link);  
-    </script>  
