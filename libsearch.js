@@ -9,7 +9,7 @@
       
         link.type = 'text/css'; 
       
-        link.href = 'libsearch.css';  
+        link.href = './libsearch.css';  
   
         // Append link element to HTML head 
         head.appendChild(link);  
