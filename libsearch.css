@@ -1,3 +1,6 @@
 body {
 	font-family:"Benton Sans Light", "BentonSans-Light", "Benton Sans Medium", "Helvetica Neue", Arial, Helvetica, Sans-Serif;
 	}
+.input-group-btn:last-child>.btn:hover {
+	color:#ff5d1c;
+	}
