@@ -1,9 +1,15 @@
 body {
 	font-family:"Benton Sans Light", "BentonSans-Light", "Benton Sans Medium", "Helvetica Neue", Arial, Helvetica, Sans-Serif;
-	}
+}
 .availabilityLink:hover, a:hover, .btn-link:hover, button.actionBtn.ng-isolate-scope:hover, button.actionBtn.ng-scope:hover {
 	color:#ff5d1c !important;
-	}
+}
+.availabilityContent.availability.documentSummaryAvailability .availabilityLink{
+	text-decoration:none!important;
+}
+.availabilityLink{
+	color:#0066cc;
+}
 .btn-default {
 	background-color:#000;
 }
