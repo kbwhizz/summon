@@ -14,20 +14,6 @@
         // Append link element to HTML head 
         document.head.appendChild(link);
 
-        // Get HTML body element 
-        var footer = document.getElementsByTagName('body')[0];  
-  
-        // Create new link Element 
-        var script = document.createElement('script'); 
-  
-        // set the attributes for script element  
-      
-        script.type = 'text/javascript'; 
-      
-        script.src = 'https://iainrca.github.io/summon/rta.js';  
-  
-        // Append link element to HTML head 
-        document.footer.appendChild(script);  
 
 $('div.availabilityRta a').each(function () {
    console.log($(this).text() );  
