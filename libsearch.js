@@ -14,7 +14,7 @@
         // Append link element to HTML head 
         document.head.appendChild(link);  
 
-console.log("Start of kbwhizz magic");
+console.log("Start of RTA function");
 
 $('div.availabilityRta a').each(function () {
    console.log($(this).text() );  
