@@ -13,3 +13,12 @@
   
         // Append link element to HTML head 
         document.head.appendChild(link);  
+
+$('div.availabilityRta  div.rtaInfo a').each(function () {
+   //console.log($( this ).text() );  
+   var LocArr = $( this ).text().split(',');
+   var Loc = LocArr[0];
+   if (Loc == 'CRL') {
+      console.log("CRL found");
+ $( "<p>Some text</p>" ).insertAfter( $( this ) );
+});
