@@ -15,6 +15,8 @@
         document.head.appendChild(link);
 
 
+
+
 $('div.availabilityRta a').each(function () {
    console.log($(this).text() );  
    var LocArr = $(this).text().split(',');
@@ -26,3 +28,11 @@ $('div.availabilityRta a').each(function () {
    }
 });
 console.log("End of js file");
+
+
+const scriptUrl = 'https://iainrca.github.io/summon/libsearch.css';
+loadScript(scriptUrl).then(() => {
+  console.log('script loaded');
+}, () => {
+  console.log('fail to load script');
+});
