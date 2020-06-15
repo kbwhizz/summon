@@ -15,11 +15,11 @@
         document.head.appendChild(link);  
 
 $('div.availabilityRta  div.rtaInfo a').each(function () {
-   //console.log($( this ).text() );  
-   var LocArr = $( this ).text().split(',');
+   console.log($(this).text() );  
+   var LocArr = $(this).text().split(',');
    var Loc = LocArr[0];
-   if (Loc == 'CRL') {
+   if (Loc === 'CRL') {
       console.log("CRL found");
- $( "<p>Some text</p>" ).insertAfter( $( this ) );
+ $( "<p>Some text</p>" ).insertAfter( $(this) );
    }
 });
