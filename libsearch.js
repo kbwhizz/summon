@@ -30,7 +30,7 @@ $('div.availabilityRta a').each(function () {
 console.log("End of js file");
 
 
-const scriptUrl = 'https://iainrca.github.io/summon/libsearch.css';
+const scriptUrl = 'https://iainrca.github.io/summon/rta.js';
 loadScript(scriptUrl).then(() => {
   console.log('script loaded');
 }, () => {
