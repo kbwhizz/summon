@@ -18,14 +18,13 @@
         var footer = document.getElementsByTagName('footer')[0];  
   
         // Create new link Element 
-        var footlink = document.createElement('link'); 
+        var footlink = document.createElement('script'); 
   
-        // set the attributes for link element  
-        link.rel = 'stylesheet';  
+        // set the attributes for script element  
       
-        link.type = 'text/javascript'; 
+        script.type = 'text/javascript'; 
       
-        link.href = 'https://iainrca.github.io/summon/rta.js';  
+        script.src = 'https://iainrca.github.io/summon/rta.js';  
   
         // Append link element to HTML head 
         document.footer.appendChild(footlink);  
