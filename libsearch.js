@@ -15,7 +15,7 @@
         document.head.appendChild(link);
 
         // Get HTML body element 
-        var footer = document.getElementsByTagName('body');  
+        var footer = document.getElementsByTagName('body')[0];  
   
         // Create new link Element 
         var footlink = document.createElement('script'); 
