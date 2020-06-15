@@ -13,18 +13,3 @@
   
         // Append link element to HTML head 
         document.head.appendChild(link);  
-
-  // Get HTML head element 
-        var footer = document.getElementsByTagName('footer')[0];  
-  
-        // Create new link Element 
-        var footlink = document.createElement('script'); 
-  
-        // set the attributes for script element  
-      
-        script.type = 'text/javascript'; 
-      
-        script.src = 'https://iainrca.github.io/summon/rta.js';  
-  
-        // Append link element to HTML head 
-        document.footer.appendChild(footlink);  
