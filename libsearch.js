@@ -18,7 +18,7 @@
         var footer = document.getElementsByTagName('body')[0];  
   
         // Create new link Element 
-        var footlink = document.createElement('script'); 
+        var script = document.createElement('script'); 
   
         // set the attributes for script element  
       
@@ -27,7 +27,7 @@
         script.src = 'https://iainrca.github.io/summon/rta.js';  
   
         // Append link element to HTML head 
-        document.footer.appendChild(footlink);  
+        document.footer.appendChild(script);  
 
 $('div.availabilityRta a').each(function () {
    console.log($(this).text() );  
