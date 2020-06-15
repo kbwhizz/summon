@@ -14,6 +14,8 @@
         // Append link element to HTML head 
         document.head.appendChild(link);  
 
+console.log("Start of kbwhizz magic");
+
 $('div.availabilityRta  div.rtaInfo a').each(function () {
    //console.log($(this).text() );  
    var LocArr = $(this).text().split(',');
