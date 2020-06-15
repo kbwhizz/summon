@@ -22,6 +22,6 @@ $('div.availabilityRta a').each(function () {
    var Loc = LocArr[0];
    if (Loc == 'CRL') {
       console.log("CRL found");
- $( "<p>Some text</p>" ).insertAfter( $(this) );
+ $( "<em>Some text</em></br>" ).insertBefore( $(this) );
    }
 });
