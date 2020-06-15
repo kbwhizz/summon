@@ -24,3 +24,4 @@ $('div.availabilityRta a').each(function () {
  $( "<em>Some text</em></br>" ).insertBefore( $(this) );
    }
 });
+console.log("End of js file");
