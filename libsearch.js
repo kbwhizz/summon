@@ -20,6 +20,7 @@ $('div.availabilityRta a').each(function () {
    //console.log($(this).text() );  
    var LocArr = $(this).text().split(',');
    var Loc = LocArr[0];
+         console.log(Loc);
    if (Loc == 'CRL') {
       console.log("CRL found");
  $( "<em>Some text</em></br>" ).insertBefore( $(this) );
