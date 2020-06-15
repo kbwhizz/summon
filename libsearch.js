@@ -21,4 +21,5 @@ $('div.availabilityRta  div.rtaInfo a').each(function () {
    if (Loc == 'CRL') {
       console.log("CRL found");
  $( "<p>Some text</p>" ).insertAfter( $( this ) );
+   }
 });
