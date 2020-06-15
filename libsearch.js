@@ -16,7 +16,7 @@
 
 console.log("Start of kbwhizz magic");
 
-$('div.availabilityRta  div.rtaInfo a').each(function () {
+$('div.availabilityRta a').each(function () {
    //console.log($(this).text() );  
    var LocArr = $(this).text().split(',');
    var Loc = LocArr[0];
