@@ -17,14 +17,22 @@
 
 
 
-$('div.availabilityRta a').each(function () {
-   console.log($(this).text() );  
-   var LocArr = $(this).text().split(',');
-         console.log(LocArr);
-   var Loc = LocArr[0];
-   if (Loc == 'CRL') {
-      console.log("CRL found");
- $( "<em>Some text</em></br>" ).insertBefore( $(this) );
-   }
+//$('div.availabilityRta a').each(function () {
+//   console.log($(this).text() );  
+//   var LocArr = $(this).text().split(',');
+//         console.log(LocArr);
+//   var Loc = LocArr[0];
+//   if (Loc == 'CRL') {
+//      console.log("CRL found");
+// $( "<em>Some text</em></br>" ).insertBefore( $(this) );
+//   }
+//});
+//console.log("End of js file");
+
+$(document).ready(function() {
+    $('div.availabilityRta').load(function() {
+       if($('div.availabilities').length > 0) {
+     console.log("RTA loaded");
+}
+    });
 });
-console.log("End of js file");
