@@ -37,5 +37,5 @@ var container_block ;
 block_to_insert = document.createElement( 'div' );
 block_to_insert.innerHTML = 'This demo DIV block was inserted into the page using JavaScript.' ;
  
-container_block = document.getElementById( 'footer' );
+container_block = document.getElementsByClassName( 'footer' );
 container_block.appendChild( block_to_insert );
