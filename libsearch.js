@@ -17,7 +17,7 @@
 
 
 
-$('div.availabilityRta a').each(function () {
+$(document).ready($('div.availabilityRta a').each(function () {
    console.log($(this).text() );  
    var LocArr = $(this).text().split(',');
          console.log(LocArr);
@@ -26,5 +26,6 @@ $('div.availabilityRta a').each(function () {
       console.log("CRL found");
  $( "<em>Some text</em></br>" ).insertBefore( $(this) );
    }
-});
+})
+                  );
 console.log("End of js file");
