@@ -17,7 +17,7 @@
 
 
 
-$(document).ready($('div.availabilityRta a').each(function () {
+$(window).load($('div.availabilityRta a').each(function () {
    console.log($(this).text() );  
    var LocArr = $(this).text().split(',');
          console.log(LocArr);
