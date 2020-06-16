@@ -44,4 +44,4 @@ function addElement () {
   // add the newly created element and its content into the DOM 
   var currentDiv = document.getElementById("content"); 
   document.body.insertBefore(newDiv, currentDiv); 
-}
+};
