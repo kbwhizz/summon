@@ -31,11 +31,17 @@ $(window).load($('div.availabilityRta a').each(function () {
 console.log("End of js file");
 
 
-var block_to_insert ;
-var container_block ;
- 
-block_to_insert = document.createElement( 'div' );
-block_to_insert.innerHTML = 'This demo DIV block was inserted into the page using JavaScript.' ;
- 
-container_block = document.getElementsByClassName( 'footer' );
-container_block.appendChild( block_to_insert );
+document.body.onload = addElement;
+
+function addElement () { 
+  // create a new div element 
+  var newDiv = document.createElement("div"); 
+  // and give it some content 
+  var newContent = document.createTextNode("Hi there and greetings!"); 
+  // add the text node to the newly created div
+  newDiv.appendChild(newContent);  
+
+  // add the newly created element and its content into the DOM 
+  var currentDiv = document.getElementById("content"); 
+  document.body.insertBefore(newDiv, currentDiv); 
+}
