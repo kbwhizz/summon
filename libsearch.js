@@ -30,6 +30,7 @@
 //console.log("End of js file");
 
 $(document).ready(function() {
+         console.log("In ready fn.");
     $('div.availabilityRta').on('load', function() {
        if($('div.availabilities').length > 0) {
      console.log("RTA loaded");
